@@ -1,6 +1,8 @@
 # $peaks, a fully-functional low-cost reversion of [Mutable instrument's Peaks](https://mutable-instruments.net/modules/peaks/)
 
-![Photo of the finished build](photo.jpg)
+## NOT YET READY!!!
+
+![Photo of the finished build](panel.png)
 
 
 
@@ -20,7 +22,7 @@ Compiled binaries and HEX files are provided for both under firmware/build.
 * Added a driver for the PWM DAC running at **14 bit depth, 48Khz sampling rate.** (File in firmware/peaks/drivers/pwm_dac.h)
 * Activated the clock for the TIM4 in firmware/peaks/drivers/system.cc
 * **Bypassed the bootloader:** This was done as to simplify the code, it does not interfere with the calibration functionality of the module.
-* Redesigned the output portion of the hardware to accommodate to the PWM levels. 
+* Redesigned the output portion of the hardware to accommodate to the PWM levels.
 
 ## Flashing and development
 To make it easier I have left binaries and .HEX files in firmware/build, this can be flashed directly to the bluepill using [STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html). <br>
