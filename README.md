@@ -1,18 +1,10 @@
-# $peaks, a fully-functional low-cost reversion of [Mutable instrument's Peaks](https://mutable-instruments.net/modules/peaks/)
+# Summit is a KOSMO adaption of [Matias Levy's bluepill version](https://github.com/matias-levy/peaks) of [Mutable instrument's Peaks](https://mutable-instruments.net/modules/peaks/)
 
-## NOT YET READY!!!
+> **Warning**
+> You need the 128k flash version of the bluepill board which might be difficult to obtain. I was lucky with [this](https://www.amazon.com/Teyleten-Robot-Development-STM32F103C8T6-Learning/dp/B08THXZ6XK) item, someone on the LMNC forum was able to get a 128k [here on aliexpress](https://www.aliexpress.us/item/3256801435312142.html?spm=a2g0o.order_list.0.0.4e301802nbwQXK&gatewayAdapt=glo2usa&_randl_shipto=US), but there is no guarantee!
 
-![Photo of the finished build](panel.png)
+![Render of the Panel](panel.png)
 
-
-
-
-## Motivation
-Where I am from it is sometimes very difficult to source components for digital Eurorack modules, but I had my eyes on Peaks for a long time and I wanted to do something cheap with the same functionality. The basic premise was to use a bluepill (stm32f103c8t6 development board) and omit the DAC IC, relying on a technic called dual PWM as it is described in [openmusiclabs blog](http://www.openmusiclabs.com/learning/digital/pwm-dac/dual-pwm-circuits/index.html) and used, for example, in the popular [Mozzi Library](https://github.com/sensorium/Mozzi) for Arduino.
-
-## Description
-The project uses a single sided home-etched PCB with a couple of jumper wires, the potentiometers are regular 16mm ones mounted at the side, also helping with the mechanical stability of the build. <br>
-You will need a bluepill capable of 128kb of flash, I bought mine advertised as only having 64kb, but it ended up not being the case, so it's worth the try
 
 ## Firmwares
 There's the option to flash one of two firmwares that where ported. The original Mutable Instruments one is in the firmware/peaks directory. The [Mutated Mutables Dead Man's Catch](https://github.com/timchurches/Mutated-Mutables/tree/master/peaks) is in the firmware/peaks2. The later adds a lot of functionality to the module, although the UI becomes a bit confusing. <br>
