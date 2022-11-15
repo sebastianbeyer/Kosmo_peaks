@@ -3,6 +3,9 @@
 > **Warning**
 > You need the 128k flash version of the bluepill board which might be difficult to obtain. I was lucky with [this](https://www.amazon.com/Teyleten-Robot-Development-STM32F103C8T6-Learning/dp/B08THXZ6XK) item, someone on the LMNC forum was able to get a 128k [here on aliexpress](https://www.aliexpress.us/item/3256801435312142.html?spm=a2g0o.order_list.0.0.4e301802nbwQXK&gatewayAdapt=glo2usa&_randl_shipto=US), but there is no guarantee!
 
+## Gerbers
+Can be found in the [latest release](https://github.com/sebastianbeyer/Kosmo_peaks/releases/latest)
+
 ![Render of the Panel](panel.png)
 
 
